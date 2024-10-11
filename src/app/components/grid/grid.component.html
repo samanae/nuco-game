@@ -1,6 +1,6 @@
 <div class="grid-container-meta">
-    <div class="grid" *ngFor="let i in randomNumbers">
-        <app-tile [value]="randomNumbers[i]"></app-tile>
+    <div class="grid" *ngFor="let number of randomNumbers">
+        <app-tile [value]="number" [evenOrOdd]="evenValue"></app-tile>
 
     </div>
 </div>

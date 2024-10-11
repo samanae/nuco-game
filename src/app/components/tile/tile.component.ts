@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tile',
@@ -8,5 +8,8 @@ import { Component, Input } from '@angular/core';
 export class TileComponent {
 
   @Input() value: number = 1;
+  @Input() evenOrOdd: string = '';
+
+
 
 }

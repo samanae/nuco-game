@@ -1,4 +1,19 @@
 .tile-container-meta {
-    
+    padding: 1rem;
     border-radius: 4px;
+}
+
+p {
+    color: rgb(44, 44, 44);
+}
+
+.even {
+    background-color: rgb(252, 178, 41);
+}
+
+.odd {
+    background-color: rgb(68, 134, 84);
+    p {
+        color: white;
+    }
 }

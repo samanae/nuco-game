@@ -9,7 +9,6 @@ export class GridComponent implements OnInit {
 
   randomNumbers: number[] = [];
   evenValue: string[] = [];
-  dictionary: {} = {};
 
   constructor() {}
 
@@ -21,24 +20,11 @@ export class GridComponent implements OnInit {
     for (let n = 0; n < 9; n++) {
       if (this.randomNumbers[n] % 2 == 0) {
       this.evenValue.push('even');
-    } else {
+    } else  {
       this.evenValue.push('odd');
     }}
-    
-    
+    console.log(this.evenValue);
     return this.randomNumbers;
   }
-
-  createDictionary(keys: string[], values: any[]): { [key: string]: any } {
-    let dictionary: { [key: string]: any } = {};
-  
-    for (let i = 0; i < keys.length; i++) {
-      dictionary[keys[i]] = values[i];
-    }
-  
-    console.log(this.dictionary);
-  }
-  
-
 
 }

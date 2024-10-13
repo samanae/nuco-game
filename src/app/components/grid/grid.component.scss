@@ -2,10 +2,11 @@
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     background-color: $background-color;
 }
 
 [cdkDrag] {
     cursor: move;
+    position: relative;
 }

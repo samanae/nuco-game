@@ -27,17 +27,30 @@ export class GridComponent implements OnInit {
     console.log(this.evenValue);
   }
 
+  sumValue: number = 0;
+
   drop(event: CdkDragDrop<number[]>): void {
-    const prevIndex = event.previousIndex;
-    const currIndex = event.currentIndex;
+    var prevIndex = event.previousIndex;
+    var currIndex = event.currentIndex +1;
 
-    const prevValue = this.randomNumbers[prevIndex];
-    const currValue = this.randomNumbers[currIndex];
-    const newValue = prevValue + currValue;
+    var prevValue = this.randomNumbers[prevIndex];
+    var currValue = this.randomNumbers[currIndex +1];
+    this.sumValue = prevValue + currValue;
 
-    // Determine the row of the current index
-    this.randomNumbers[prevIndex] = newValue;
-    this.randomNumbers[currIndex] = newValue;
-    }
+    console.log('Dragged Tile Index:', prevIndex);
+    console.log('Dragged Tile Value:', prevValue);
+    console.log('Dropped Tile Index:', currIndex);
+    console.log('Dropped Tile Value:', currValue);
+
+    // Prevent the tiles from moving
+    // event.item.reset();
+
+    this.randomNumbers[prevIndex] = this.sumValue;
+    this.randomNumbers[currIndex] = this.sumValue;
+
+    var prevIndex = 0;
+    var currIndex = 0;
+  }
+
 
 }

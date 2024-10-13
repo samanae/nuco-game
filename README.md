@@ -1,5 +1,8 @@
 # Nuco <br>
 
+![image](https://github.com/user-attachments/assets/a11037fd-9032-449c-a9c5-152ed288afbb)
+
+
 Nuco (Numbers + Colors) is a casual mobile friendly game that stacks and subtracts numbers to get as low as 1.
 It was developed and designed as part of the midterm project "Casual Games" at Köln International School of Design by Samia Rachid.
 

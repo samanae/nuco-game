@@ -6,11 +6,15 @@ It was developed and designed as part of the midterm project "Casual Games" at K
 ### Table of Contents:<br>
 
 [Nuco](/#Nuco/)<br>
+[Game Design Document]
  [How To Play](/##HowToPlay/)<br>
 Goal<br>
 Rules<br>
 Interaction<br>
 Build information<br>
+
+## Game Design Document
+A full and detailed description (GDD) of the game is published on the following site: https://www.notion.so/nuco-11ecb3271f528081b18cfce9caded762?pvs=4
 
 ## How To Play
 

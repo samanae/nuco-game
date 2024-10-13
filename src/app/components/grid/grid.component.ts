@@ -28,6 +28,7 @@ export class GridComponent implements OnInit {
   }
 
   initializeRandomNumbers(): void {
+    this.randomNumbers = []; // clear the array when restarting
     for (let i = 0; i < 9; i++) {
       const randomNum = Math.floor(Math.random() * 10) + 90;
         this.randomNumbers.push(randomNum);
@@ -51,6 +52,12 @@ export class GridComponent implements OnInit {
   endGame(message: string): void {
     clearInterval(this.interval);
     alert(message);
+  }
+
+  resetGame(): void {
+    clearInterval(this.interval);
+    this.initializeRandomNumbers();
+    this.startTimer;
   }
 
   sumValue: number = 0;

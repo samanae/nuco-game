@@ -1,15 +1,23 @@
 # Nuco <br>
-Table of Contents:<br>
-Nuco<br>
+
+Nuco (Numbers + Colors) is a casual mobile friendly game that stacks and subtracts numbers to get as low as 1.
+It was developed and designed as part of the midterm project "Casual Games" at Köln International School of Design by Samia Rachid.
+
+### Table of Contents:<br>
+
+[]Nuco<br>
 How to Play<br>
-  Goal<br>
-  Rules<br>
-  Interaction<br>
+Goal<br>
+Rules<br>
+Interaction<br>
 Build information<br>
 
+## How To Play
 
+The following is a description of the rules of Nuco
 
 ## Build information
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
 ## Development server

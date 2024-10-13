@@ -1,5 +1,15 @@
-# Nuco
+# Nuco <br>
+Table of Contents:<br>
+Nuco<br>
+How to Play<br>
+  Goal<br>
+  Rules<br>
+  Interaction<br>
+Build information<br>
 
+
+
+## Build information
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
 ## Development server

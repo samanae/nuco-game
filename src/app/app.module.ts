@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { TabletopComponent } from './components/tabletop/tabletop.component';
 import { GridComponent } from './components/grid/grid.component';
 import { TileComponent } from './components/tile/tile.component';
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TileComponent } from './components/tile/tile.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]

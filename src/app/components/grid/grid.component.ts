@@ -1,3 +1,4 @@
+import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -12,7 +13,7 @@ export class GridComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): number[] {
+  ngOnInit(): void {
     for (let i = 0; i < 9; i++) {
       const randomNum = Math.floor(Math.random() * 8);
       this.randomNumbers.push(randomNum);
@@ -24,7 +25,19 @@ export class GridComponent implements OnInit {
       this.evenValue.push('odd');
     }}
     console.log(this.evenValue);
-    return this.randomNumbers;
   }
+
+  drop(event: CdkDragDrop<number[]>): void {
+    const prevIndex = event.previousIndex;
+    const currIndex = event.currentIndex;
+
+    const prevValue = this.randomNumbers[prevIndex];
+    const currValue = this.randomNumbers[currIndex];
+    const newValue = prevValue + currValue;
+
+    // Determine the row of the current index
+    this.randomNumbers[prevIndex] = newValue;
+    this.randomNumbers[currIndex] = newValue;
+    }
 
 }

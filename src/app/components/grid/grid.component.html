@@ -5,16 +5,9 @@
     </div>
 </div> -->
 <div class="grid-container-meta">
-    <div class="grid">
-        <app-tile [value]="randomNumbers[0]"></app-tile>
-        <app-tile [value]="randomNumbers[1]"></app-tile>
-        <app-tile [value]="randomNumbers[2]"></app-tile>
-        <app-tile [value]="randomNumbers[3]"></app-tile>
-        <app-tile [value]="randomNumbers[4]"></app-tile>
-        <app-tile [value]="randomNumbers[5]"></app-tile>
-        <app-tile [value]="randomNumbers[6]"></app-tile>
-        <app-tile [value]="randomNumbers[7]"></app-tile>
-        <app-tile [value]="randomNumbers[8]"></app-tile>
-
+    <div class="grid" cdkDropList (cdkDropListDropped)="drop($event)">
+        <div *ngFor="let number of randomNumbers; let i = index" cdkDrag>
+            <app-tile [value]="number"></app-tile>
+        </div>
     </div>
 </div>

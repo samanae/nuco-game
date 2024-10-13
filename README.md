@@ -14,7 +14,7 @@ It was developed and designed as part of the midterm project "Casual Games" at K
 [Build information](#Build-information)
 
 ## Game Design Document
-A full and detailed description (GDD) of the game is published on the following site: [nuco Game Design Document](https://www.notion.so/nuco-11ecb3271f528081b18cfce9caded762?pvs=4)
+A full and detailed description (GDD) of the game is published on the following site: [nuco Game Design Document](https://woolly-calf-705.notion.site/nuco-11ecb3271f528081b18cfce9caded762)
 
 ## How To Play
 

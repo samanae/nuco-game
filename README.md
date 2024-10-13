@@ -5,8 +5,8 @@ It was developed and designed as part of the midterm project "Casual Games" at K
 
 ### Table of Contents:<br>
 
-[]Nuco<br>
-How to Play<br>
+[Nuco](/#Nuco/)<br>
+ [How To Play](/##HowToPlay/)<br>
 Goal<br>
 Rules<br>
 Interaction<br>

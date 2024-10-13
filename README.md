@@ -5,7 +5,7 @@ It was developed and designed as part of the midterm project "Casual Games" at K
 
 ## Table of Contents:
 [Nuco](/#Nuco)<br>
-[How To Play](/#How-to-play)<br>
+[How To Play](#How-to-play)<br>
 [Game Design Document](/#Game-design-document)<br> 
 [How To Play](/#How-to-play)<br>
 [Rules](/#Rules)<br>

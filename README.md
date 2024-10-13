@@ -3,18 +3,16 @@
 Nuco (Numbers + Colors) is a casual mobile friendly game that stacks and subtracts numbers to get as low as 1.
 It was developed and designed as part of the midterm project "Casual Games" at Köln International School of Design by Samia Rachid.
 
-### Table of Contents:<br>
-
-[Nuco](/#Nuco/)<br>
-[Game Design Document]
- [How To Play](/##HowToPlay/)<br>
-Goal<br>
-Rules<br>
-Interaction<br>
-Build information<br>
+## Table of Contents:
+[Nuco](/#Nuco)<br>
+[How To Play](/#How-to-play)<br>
+[Game Design Document](/#Game-design-document)<br> 
+[How To Play](/#How-to-play)<br>
+[Rules](/#Rules)<br>
+[Build information](/#Build-information)
 
 ## Game Design Document
-A full and detailed description (GDD) of the game is published on the following site: https://www.notion.so/nuco-11ecb3271f528081b18cfce9caded762?pvs=4
+A full and detailed description (GDD) of the game is published on the following site: [nuco Game Design Document](https://www.notion.so/nuco-11ecb3271f528081b18cfce9caded762?pvs=4)
 
 ## How To Play
 

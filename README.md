@@ -4,19 +4,29 @@ Nuco (Numbers + Colors) is a casual mobile friendly game that stacks and subtrac
 It was developed and designed as part of the midterm project "Casual Games" at Köln International School of Design by Samia Rachid.
 
 ## Table of Contents:
-[Nuco](/#Nuco)<br>
+[Nuco](#Nuco)<br>
+[Game Design Document](#Game-design-document)<br> 
 [How To Play](#How-to-play)<br>
-[Game Design Document](/#Game-design-document)<br> 
-[How To Play](/#How-to-play)<br>
-[Rules](/#Rules)<br>
-[Build information](/#Build-information)
+[Game Rules](#Game-rules)<br>
+[Build information](#Build-information)
 
 ## Game Design Document
 A full and detailed description (GDD) of the game is published on the following site: [nuco Game Design Document](https://www.notion.so/nuco-11ecb3271f528081b18cfce9caded762?pvs=4)
 
 ## How To Play
 
-The following is a description of the rules of Nuco
+nuco is a puzzle game where players aim to manipulate the values of tiles on a 3x3 grid to achieve a the  lowest score possible. The objective is to make the sum of all tile values equal to or less than 9. Players can drag and drop tiles to either add or subtract their values based on specific conditions.
+### Game Rules
+
+1. **Initial Setup:**
+    
+    The game starts with a 3x3 grid of tiles. Each tile is initialized with a random number between 90 and 99.
+    
+2. **Gameplay Mechanics:**
+    
+    Players can drag a tile and drop it onto another tile. If the value of the dragged tile is less than the value of the dropped tile, the values are subtracted. If the value of the dragged tile is greater than or equal to the value of the dropped tile, the values are added.
+    
+    The resulting value is updated on both the dragged and dropped tiles.
 
 ## Build information
 

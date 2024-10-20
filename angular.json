@@ -33,7 +33,7 @@
               "src/styles.scss"
             ],
             "scripts": [],
-            "baseHref": "/nuco-game/"
+            "baseHref": "https://samanae.github.io/nuco-game/"
             },
           "configurations": {
             "production": {

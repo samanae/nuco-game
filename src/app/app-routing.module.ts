@@ -4,7 +4,7 @@ import { HomeComponent } from './components/home/home.component';
 import { TabletopComponent } from './components/tabletop/tabletop.component';
 
 const routes: Routes = [ 
-  {path: 'home', component: HomeComponent},
+  {path: '/', component: HomeComponent},
   {path: 'tabletop', component: TabletopComponent}
 ];
 

@@ -4,6 +4,8 @@ import { HomeComponent } from './components/home/home.component';
 import { TabletopComponent } from './components/tabletop/tabletop.component';
 
 const routes: Routes = [ 
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '**', redirectTo: '/home' },  // Wildcard route for a 404 page
   {path: 'home', component: HomeComponent},
   {path: 'tabletop', component: TabletopComponent}
 ];

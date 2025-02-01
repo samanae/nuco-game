@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="805" height="498" viewBox="0 0 805 498" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="83" y1="0" x2="83" y2="338">
+      <stop offset="0" stop-color="#44864C" />
+      <stop offset="1" stop-color="#60ECFF" />
+    </linearGradient>
+    <filter color-interpolation-filters="sRGB" x="-164" y="-336" width="166" height="338" id="filter_2">
+      <feFlood flood-opacity="0" result="BackgroundImageFix_1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" in="SourceAlpha" />
+      <feOffset dx="0" dy="4" />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.251 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix_1" result="Shadow_2" />
+      <feBlend mode="normal" in="SourceGraphic" in2="Shadow_2" result="Shape_3" />
+    </filter>
+    <linearGradient id="gradient_3" gradientUnits="userSpaceOnUse" x1="83" y1="0" x2="83" y2="338">
+      <stop offset="0" stop-color="#FF885E" />
+      <stop offset="1" stop-color="#F8DB51" />
+    </linearGradient>
+    <filter color-interpolation-filters="sRGB" x="-164" y="-336" width="166" height="338" id="filter_4">
+      <feFlood flood-opacity="0" result="BackgroundImageFix_1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" in="SourceAlpha" />
+      <feOffset dx="0" dy="4" />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.251 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix_1" result="Shadow_2" />
+      <feBlend mode="normal" in="SourceGraphic" in2="Shadow_2" result="Shape_3" />
+    </filter>
+    <filter color-interpolation-filters="sRGB" x="-164" y="-336" width="166" height="338" id="filter_5">
+      <feFlood flood-opacity="0" result="BackgroundImageFix_1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" in="SourceAlpha" />
+      <feOffset dx="0" dy="4" />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.251 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix_1" result="Shadow_2" />
+      <feBlend mode="normal" in="SourceGraphic" in2="Shadow_2" result="Shape_3" />
+    </filter>
+    <filter color-interpolation-filters="sRGB" x="-164" y="-336" width="166" height="338" id="filter_6">
+      <feFlood flood-opacity="0" result="BackgroundImageFix_1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" in="SourceAlpha" />
+      <feOffset dx="0" dy="4" />
+      <feGaussianBlur stdDeviation="2" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.251 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix_1" result="Shadow_2" />
+      <feBlend mode="normal" in="SourceGraphic" in2="Shadow_2" result="Shape_3" />
+    </filter>
+  </defs>
+  <g>
+    <rect width="805" height="498" />
+    <path id="Rectangle Subtract" d="M166 10C166 4.4764 161.524 0 156 0L10 0C4.4764 0 0 4.4764 0 10L0 328C0 333.524 4.4764 338 10 338L66 338L66 74C66 68.4764 70.4764 64 76 64L90 64C95.5236 64 100 68.4764 100 74L100 338L156 338C161.524 338 166 333.524 166 328L166 10Z" fill="url(#gradient_1)" fill-rule="evenodd" filter="url(#filter_2)" transform="translate(61 80)" />
+    <path id="Rectangle Subtract" d="M66 0L10 0C4.47639 0 0 4.4764 0 10L0 328C0 333.524 4.47639 338 10 338L156 338C161.524 338 166 333.524 166 328L166 10C166 4.4764 161.524 0 156 0L100 0L100 256C100 261.524 95.5236 266 90 266L76 266C70.4764 266 66 261.524 66 256L66 0Z" fill="url(#gradient_3)" fill-rule="evenodd" filter="url(#filter_4)" transform="translate(236 80)" />
+    <path id="Rectangle Subtract" d="M166 10C166 4.4764 161.524 0 156 0L10 0C4.47641 0 0 4.4764 0 10L0 328C0 333.524 4.47641 338 10 338L156 338C161.524 338 166 333.524 166 328L166 186L90 186C84.4764 186 80 181.524 80 176L80 162C80 156.476 84.4764 152 90 152L166 152L166 10Z" fill="url(#gradient_1)" fill-rule="evenodd" filter="url(#filter_5)" transform="translate(411 80)" />
+    <path id="Rectangle Subtract" d="M166 10C166 4.4764 161.524 0 156 0L10 0C4.47638 0 0 4.4764 0 10L0 328C0 333.524 4.47638 338 10 338L156 338C161.524 338 166 333.524 166 328L166 10ZM66 231C66 236.524 70.4764 241 76 241L90 241C95.5236 241 100 236.524 100 231L100 107C100 101.476 95.5236 97 90 97L76 97C70.4764 97 66 101.476 66 107L66 231Z" fill="url(#gradient_1)" fill-rule="evenodd" filter="url(#filter_6)" transform="translate(586 80)" />
+  </g>
+</svg>

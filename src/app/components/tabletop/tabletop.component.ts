@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class TabletopComponent {
 
-  undo() {
+  reset() {
     // reset
   }
 }

@@ -1,9 +1,8 @@
-<!-- <div class="grid-container-meta">
-    <div class="grid" *ngFor="let number of randomNumbers">
-        <app-tile [value]="number"></app-tile>
-
-    </div>
-</div> -->
+<div class="grid-container-meta">
+    <div class="score-overview">
+        <p class="scoreboard time">Time: {{timePassed}} s</p>
+    <p class="scoreboard score">{{score}}</p>
+</div>
 <div class="grid-container-meta">
     <div class="grid" cdkDropList (cdkDropListDropped)="drop($event)">
         <div *ngFor="let number of randomNumbers; let i = index" cdkDrag>
@@ -11,5 +10,8 @@
         </div>
     </div>
 </div>
-<p>{{score}}</p>
-<p>Time: {{timePassed}} s</p><a (click)="resetGame()">Restart</a>
+<div class="button-row">
+    <app-button-a [buttonText]="'Restart'" (click)="resetGame()"></app-button-a>
+    <app-button-a [buttonText]="'Home'" [secondaryButton]="true" [buttonLink]="'/home'"></app-button-a>     
+</div>
+</div>

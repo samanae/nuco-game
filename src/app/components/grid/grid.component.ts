@@ -76,11 +76,6 @@ export class GridComponent implements OnInit {
       this.sumValue = prevValue + currValue;
     }
 
-    console.log('Dragged Tile Index:', prevIndex);
-    console.log('Dragged Tile Value:', prevValue);
-    console.log('Dropped Tile Index:', currIndex);
-    console.log('Dropped Tile Value:', currValue);
-
     // Prevent the tiles from moving
     event.item.reset();
 

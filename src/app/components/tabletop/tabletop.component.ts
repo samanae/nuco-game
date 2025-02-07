@@ -6,8 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./tabletop.component.scss']
 })
 export class TabletopComponent {
-
-  reset() {
-    // reset
-  }
 }

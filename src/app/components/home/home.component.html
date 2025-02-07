@@ -1,7 +1,6 @@
 <div class="home-screen-meta-container">
 
     <div class="nuco-title-logo">
-        <!-- <h1>nuco</h1> -->
         <!-- nuco logo -->
          <div class="nuco-logo">
                  <svg width="805" height="498" viewBox="0 0 805 498" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,8 +63,7 @@
     </div>
     <div class="button-line">
         <app-button-a [buttonText]="'Play'" [buttonLink]="'/tabletop'"></app-button-a>
-       <!--  <a class="play-btn main-btn" routerLink="/tabletop">Play</a> -->
-        <a class="close-btn main-btn">Close</a>
+        <app-button-a [buttonText]="'Close'" [secondaryButton]="true"></app-button-a>
     </div>
 
     <p>created by Samia Rachid</p>

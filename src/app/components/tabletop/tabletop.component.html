@@ -62,7 +62,7 @@
     </div>
     <app-grid></app-grid>
     <div class="button-row">
-        <a routerLink="/home">Back to Home</a><a (click)="undo()">Undo</a>
-    
+        <app-button-a [buttonText]="'Home'" [buttonLink]="'/tabletop'"></app-button-a>
+        <app-button-a [buttonText]="'Restart'" [secondaryButton]="true" (click)="undo()"></app-button-a>     
     </div>
 </div>

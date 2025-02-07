@@ -20,3 +20,25 @@ a:hover {
 	border:1px solid #459285;
     color:#ffffff;
 }
+
+
+.secondary {
+        box-shadow:inset 0px 1px 0px 0px #ffaf63;
+        background:linear-gradient(to top, #d14f1b 5%, #ffa44e 100%);
+        background-color:#fa7c34;
+        border-radius:6px;
+        border:1px solid #d11f1f;
+        display:inline-block;
+        cursor:pointer;
+        color:#810b2e;   
+}
+.secondary:hover {
+    box-shadow:inset 0px 1px 0px 0px #85807c;
+    background:linear-gradient(to top, #68837f 5%, #58968d 100%);
+    background-color:#a3a3a3;
+    border-radius:6px;
+    border:1px solid #3a3a3a;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+}

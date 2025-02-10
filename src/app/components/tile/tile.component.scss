@@ -9,15 +9,36 @@ p {
     font-size: 2.5rem;
 }
 
-.even {
-    background-color: rgb(252, 178, 41);
+.not-quiet-hundred {
+    background-color: #403e5b;
     p {
-        color: rgb(44, 44, 44);
+        color: rgb(255, 255, 255);
     }
 }
 
-.odd {
-    background-color: rgb(68, 134, 84);
+.above-fifty {
+    background-color: #b68bb3;
+    p {
+        color: white;
+    }
+}
+
+.middle {
+    background-color: #f1c84b;
+    p {
+        color: #403e5b;
+    }
+}
+
+.teens {
+    background-color: #d97d7d;
+    p {
+        color: #403e5b;
+    }
+}
+
+.singles {
+    background-color: #4f8c8c;
     p {
         color: white;
     }

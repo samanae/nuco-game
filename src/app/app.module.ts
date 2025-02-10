@@ -8,6 +8,7 @@ import { TabletopComponent } from './components/tabletop/tabletop.component';
 import { GridComponent } from './components/grid/grid.component';
 import { TileComponent } from './components/tile/tile.component';
 import {DragDropModule} from '@angular/cdk/drag-drop';
+import { ButtonAComponent } from './components/button-a/button-a.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
     HomeComponent,
     TabletopComponent,
     GridComponent,
-    TileComponent
+    TileComponent,
+    ButtonAComponent
   ],
   imports: [
     BrowserModule,

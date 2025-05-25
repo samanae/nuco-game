@@ -1,14 +1,12 @@
 <div class="home-screen-meta-container">
-
-    <div class="nuco-title-logo">
-        <h1>nuco</h1>
-        <!-- add a logo here -->
-    </div>
-    <div class="button-line">
-        <a routerLink="/tabletop">Play</a>
-        <a>Close</a>
-    </div>
-
-    <p>created by Samia Rachid</p>
-
+<div class="content">
+  <div class="nuco-title-logo">
+      <img src="assets/logo/nuco.png">
+  </div>
+  <div class="button-line">
+      <app-button-a [buttonText]="'Play'" [buttonLink]="'/tabletop'"></app-button-a>
+      <app-button-a [buttonText]="'Close'" [secondaryButton]="true"></app-button-a>
+  </div>
+  <p id="signature">created by Samia Rachid</p>
+</div>
 </div>

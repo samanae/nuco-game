@@ -1,6 +1,7 @@
 # Nuco <br>
 
-![image](https://github.com/user-attachments/assets/a11037fd-9032-449c-a9c5-152ed288afbb)
+![image](https://github.com/user-attachments/assets/98c5b75c-c56b-436a-94a8-0970e1acad99)
+
 
 
 Nuco (Numbers + Colors) is a casual mobile friendly game that stacks and subtracts numbers to get as low as 1.

@@ -11,7 +11,9 @@ export class TileComponent implements OnInit{
   @Input() colorValue: string = '';
 
   ngOnInit() {
-    if (this.value >= 80) {
+    if (this.value >= 100) {
+      this.colorValue = 'over-hundred'
+    } else if (this.value >= 80 && this.value <=1000){
       this.colorValue = 'not-quiet-hundred'
     } else if (this.value >= 50 && this.value <=79) {
       this.colorValue = 'above-fifty'

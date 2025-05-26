@@ -4,8 +4,8 @@
       <img src="assets/logo/nuco.png">
   </div>
   <div class="button-line">
-      <app-button-a [buttonText]="'Play'" [buttonLink]="'/tabletop'"></app-button-a>
-      <app-button-a [buttonText]="'Close'" [secondaryButton]="true"></app-button-a>
+      <app-button-a [buttonText]="'Play'" (click)="navigate.emit('tabletop')"></app-button-a>
+      <app-button-a [buttonText]="'Close'" (click)="navigate.emit('home')" [secondaryButton]="true"></app-button-a>
   </div>
   <p id="signature">created by Samia Rachid</p>
 </div>

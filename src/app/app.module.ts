@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { TabletopComponent } from './components/tabletop/tabletop.component';
@@ -21,7 +20,6 @@ import { ButtonAComponent } from './components/button-a/button-a.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     DragDropModule
   ],
   providers: [],

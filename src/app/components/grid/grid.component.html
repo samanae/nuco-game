@@ -12,6 +12,6 @@
 </div>
 <div class="button-row">
     <app-button-a [buttonText]="'Restart'" (click)="resetGame()"></app-button-a>
-    <app-button-a [buttonText]="'Home'" [secondaryButton]="true" [buttonLink]="'/home'"></app-button-a>     
+    <app-button-a [buttonText]="'Home'" [secondaryButton]="true" (click)="navigate.emit('home')"></app-button-a>     
 </div>
 </div>

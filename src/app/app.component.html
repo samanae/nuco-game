@@ -1,3 +1,4 @@
 <main>
-  <router-outlet></router-outlet>
+  <app-home *ngIf="currentPage === 'home'" (navigate)="goTo('home')"></app-home>
+  <app-tabletop *ngIf="currentPage === 'tabletop'" (navigate)="goTo('tabletop')"></app-tabletop>
 </main>

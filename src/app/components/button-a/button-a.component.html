@@ -1,2 +1,2 @@
-<a *ngIf="!secondaryButton" (click)="click.emit()">{{buttonText}}</a>
-<a *ngIf="secondaryButton" class="secondary" (click)="click.emit()">{{buttonText}}</a>
+<a *ngIf="!secondaryButton" (click)="onClick($event)">{{buttonText}}</a>
+<a *ngIf="secondaryButton" class="secondary" (click)="onClick($event)">{{buttonText}}</a>

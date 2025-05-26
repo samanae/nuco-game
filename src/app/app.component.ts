@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PageService } from './services/page.service';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +8,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nuco';
-  
-  currentPage: 'home' | 'tabletop' = 'home';
 
-  goTo(page: 'home' | 'tabletop') {
-    this.currentPage = page;
+  constructor(public pageService: PageService) {}
+  
+  currentPage: 'home' | 'tabletop' = 'tabletop'; 
+  showHome() {
+    this.currentPage = 'home';
   }
+
+  showTabletop() {
+    this.currentPage = 'tabletop';
+  }
+
 }

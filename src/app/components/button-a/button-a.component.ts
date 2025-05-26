@@ -1,4 +1,5 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { PageService } from 'src/app/services/page.service';
 
 @Component({
   selector: 'app-button-a',
@@ -10,6 +11,13 @@ export class ButtonAComponent {
 @Input() buttonLink = '';
 @Input() secondaryButton = false;
 
-@Output() click = new EventEmitter<void>();
+ @Input() targetPage: 'home' | 'tabletop' = 'home'; // To specify which page to navigate to
+
+  constructor(private pageService: PageService) {}
+
+  onClick(event: Event) {
+    event.preventDefault(); // Prevent default anchor behavior
+    this.pageService.navigateTo(this.targetPage);
+  }
 
 }

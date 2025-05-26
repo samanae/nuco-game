@@ -1,4 +1,5 @@
 <main>
-  <app-home *ngIf="currentPage === 'home'" (navigate)="goTo('home')"></app-home>
-  <app-tabletop *ngIf="currentPage === 'tabletop'" (navigate)="goTo('tabletop')"></app-tabletop>
+  <app-home *ngIf="currentPage === 'home'"></app-home>
+  <app-tabletop *ngIf="currentPage === 'tabletop'"></app-tabletop>
+  <p>Current Page: {{ currentPage }}</p>
 </main>

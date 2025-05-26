@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nuco';
+  
+  currentPage: 'home' | 'tabletop' = 'home';
+
+  goTo(page: 'home' | 'tabletop') {
+    this.currentPage = page;
+  }
 }
